@@ -1,6 +1,3 @@
-
-import { agregarProducto, eliminarProducto, mostrarLista } from './lista.js';
-
 // Prueba tus funciones
 agregarProducto("Leche");
 agregarProducto("Pan");
@@ -16,3 +13,5 @@ eliminarProducto("Jabon multiusos");
 mostrarLista();  // Muestra lista sin productos eliminados
 
 eliminarProducto("Huevos");  // Producto no existente
+
+import { agregarProducto, eliminarProducto, mostrarLista } from './lista.js';
